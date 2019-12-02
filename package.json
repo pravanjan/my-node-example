@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha 'test/**/*.js'  --reporter mochawesome ;",
+    "start": "node app/myapp.js"
   },
   "repository": {
     "type": "git",
@@ -12,5 +13,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^6.2.2",
+    "mochawesome": "^4.1.0",
+    "supertest": "^4.0.2"
+  }
 }
