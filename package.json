@@ -1,0 +1,16 @@
+{
+  "name": "my-node-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://source.developers.google.com/p/my-node-example/r/my-node-example"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
