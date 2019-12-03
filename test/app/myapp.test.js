@@ -12,7 +12,7 @@ describe ("This is test apis with given query param ",function(){
         .expect(200)
         .then(response => {
             console.log(response.text);
-            assert.equal(response.text, "mydata");
+            assert.equal(response.text, "mydat");
             done()
         })
         
