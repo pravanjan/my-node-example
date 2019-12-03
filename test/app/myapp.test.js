@@ -5,8 +5,8 @@ const chai = require('chai');
 var assert = chai.assert;
 
 
-describe ("This is test apis with given query param ",function(){
-    it("it returns respose with correct app name ",function(done){
+describe ("Testing endpoints on  myapp.js with superset  ",function(){
+    it("provided path variable is equal to the return response",function(done){
         request(app)
         .get('/query/mydata/')
         .expect(200)
