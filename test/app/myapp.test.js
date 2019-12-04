@@ -12,7 +12,7 @@ describe ("Testing endpoints on  myapp.js with superset  ",function(){
         .expect(200)
         .then(response => {
             console.log(response.text);
-            assert.equal(response.text, "mdata");
+            assert.equal(response.text, "mydata");
             done()
         })
         
